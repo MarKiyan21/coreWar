@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cw_ir"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/nfs/2016/m/mkyianyt/coreWar/corewar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mkyianyt/coreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mkyianyt/coreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mkyianyt/coreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mkyianyt/coreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/nfs/2016/m/mkyianyt/coreWar/corewar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mkyianyt/coreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mkyianyt/coreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mkyianyt/coreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mkyianyt/coreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/nfs/2016/m/mkyianyt/coreWar/corewar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mkyianyt/coreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mkyianyt/coreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mkyianyt/coreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mkyianyt/coreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cw_ir">
+				<Option output="/nfs/2016/m/mkyianyt/coreWar/corewar/cmake-build-debug/cw_ir" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2016/m/mkyianyt/coreWar/corewar/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mkyianyt/coreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 cw_ir"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mkyianyt/coreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mkyianyt/coreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mkyianyt/coreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cw_ir/fast">
+				<Option output="/nfs/2016/m/mkyianyt/coreWar/corewar/cmake-build-debug/cw_ir" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2016/m/mkyianyt/coreWar/corewar/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mkyianyt/coreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 cw_ir/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mkyianyt/coreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mkyianyt/coreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/m/mkyianyt/coreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/cw_arg_func.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/cw_battle.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/cw_cpy_ch.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/cw_decrypt_options.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/cw_decryptor.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/cw_error_mess.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/cw_fight.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/cw_function_pack1.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/cw_function_pack2.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/cw_function_pack3.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/cw_function_pack4.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/cw_get_arg.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/cw_get_number.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/cw_new_ch.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/cw_output.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/cw_prefight.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/cw_put_inmem.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/cw_read_args.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/cw_read_args2.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/cw_set_pause.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/cw_struct_null.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/cw_the_end.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/cw_vis_output.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/ft_atoi_base.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/libft/ft_atoi.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/libft/ft_isdigit.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/libft/ft_putchar.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/libft/ft_putnbr.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/libft/ft_putstr.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/libft/ft_strdup.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/libft/ft_strequ.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/libft/ft_strlen.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/libft/ft_strnew.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/libft/ft_ustrnew.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/main.c">
+			<Option target="cw_ir"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mkyianyt/coreWar/corewar/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
